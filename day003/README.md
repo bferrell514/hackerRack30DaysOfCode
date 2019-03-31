@@ -1,4 +1,4 @@
-Obj<b>Objective</b><br> 
+<b>Objective</b><br> 
 In this challenge, we're getting started with conditional statements. Check out the Tutorial tab for learning materials and an instructional video!
 
 <b>Task</b><br>
