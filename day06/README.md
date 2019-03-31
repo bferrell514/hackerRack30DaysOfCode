@@ -13,7 +13,7 @@ Each line i of the T subsequent lines contain a String, S.
 
 <b>Constraints</b><br>
 1 <= <i>T</i> <=10<br>
-2 <= length of <i>S</> <= 10000<br>
+2 <= length of <i>S</i> <= 10000<br>
 
 <b>Output Format</b><br>
 For each String  <i>S</i>(where 0 <= <i>j</i><=<i>T</i> - 1), print S's even-indexed characters, followed by a space, followed by S's odd-indexed characters.<br>
