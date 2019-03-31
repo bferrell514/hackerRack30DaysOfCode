@@ -22,7 +22,7 @@ The first line contains an integer, T(the number of test cases), and the T subse
 Complete the method definitions provided in the editor so they meet the specifications outlined above; the code to test your work is already in the editor. If your methods are implemented correctly, each test case will print 2 or 3 lines (depending on whether or not a valid initialAge was passed to the constructor).
 
 <b>Sample Input</b><br>
-22<br>
+2<br>
 
 
 <b>Sample Output</b><br>
