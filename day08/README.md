@@ -34,24 +34,17 @@ sam=99912222<br>
 Not found<br>
 harry=12299933<br>
 
-<b>Explanation</b>
-Test Case 0: <i>S</i> = "Hacker"<br>
-<i>S</i>[0] = "H"<br>
-<i>S</i>[1] = "a"<br>
-<i>S</i>[2] = "c"<br>
-<i>S</i>[3] = "k"<br>
-<i>S</i>[4] = "e"<br>
-<i>S</i>[5] = "r"<br>
-The even indices are 0, 2, and ,4 and the odd indices are 1, 3, and 5. We then print a single line of 2 space-separated strings; the first string contains the ordered characters from <i>S</i>'s even indices (<b>Hce</b>), and the second string contains the ordered characters from <i>S</i>'s odd indices (<b>akr</b>).<br>
+<b>Explanation</b><br>
+We add the following <i>n</i> = 3 (Key,Value) pairs to our map so it looks like this:
+<i>phoneBook</i> = {(<i>sam</i>, 99912222), (<i>tom</i>, 11122222), (<i>harry</i>, 122999333)}
+We then process each query and print key=value if the queried <i>key</i> is found in the map; otherwise, we print Not found.
 
-Test Case 1: <i>S</i> = "Rack"<br>
-<i>S</i>[0] = "R"<br>
-<i>S</i>[1] = "a"<br>
-<i>S</i>[2] = "n"<br>
-<i>S</i>[3] = "k"<br>
+Query 0: sam <br>
+Sam is one of the keys in our dictionary, so we print sam=99912222.
 
- 
- 
- 
- 
-The even indices are 0 and 2, and the odd indices are 1 and 3. We then print a single line of 2 space-separated strings; the first string contains the ordered characters from <i>S</i>'s even indices (<b>Rn</b>), and the second string contains the ordered characters from <i>S</i>'s odd indices (<b>ak</b>).
+Query 1: edward<br>
+Edward is not one of the keys in our dictionary, so we print Not found.<br>
+
+Query 2: harry 
+Harry is one of the keys in our dictionary, so we print <br>
+harry=12299933.
